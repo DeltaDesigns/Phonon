@@ -42,15 +42,15 @@
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter TargetName="ButtonBackground" Property="Background">
                                 <Setter.Value>
-                                    <SolidColorBrush Color="#FF4E4F51"/>
+                                    <SolidColorBrush Color="#FF0080FF"/>
                                 </Setter.Value>
                             </Setter>
                         </Trigger>
-                        <Trigger Property="IsChecked" Value="True" >
+                        <Trigger Property="IsFocused" Value="True" >
 
                             <Setter TargetName="ButtonBackground" Property="Background">
                                 <Setter.Value>
-                                    <SolidColorBrush Color="#FF666B70"/>
+                                    <SolidColorBrush Color="#FF0080FF"/>
                                 </Setter.Value>
                             </Setter>
                         </Trigger>
